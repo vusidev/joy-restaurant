@@ -1,0 +1,640 @@
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+
+* {
+margin: 0;
+padding: 0;
+}
+
+/* nav bar start here */
+.nav-bar  {
+list-style: none;
+}
+
+ .nav-bar  li {
+display: inline-block;
+}
+
+.nav-bar  li a {
+text-decoration: none;
+color: #fff;
+font-size: 18px;
+padding: 10px 10px;
+font-family: sans-serif;
+position: relative;
+top: 12px;
+cursor: pointer;
+transition: 2s ease-in;
+}
+
+.nav-bar li a:hover {
+color: red;
+border-bottom: 2px solid red;
+border-radius: 12px;
+}
+/* ends here */
+
+/* background for nav bar container */
+.nav {
+background:  #7F4E52;
+width: 100%;
+height: 50px;
+border-top-left-radius: 40px;
+border-top-right-radius: 40px;
+position: relative;
+top: 0px;
+z-index: 2;
+}
+
+header {
+background: url(joy.jpg);
+background-position: center;
+background-size: cover;
+height: 228px;
+}
+/* ends here */
+
+/* reservation button */
+button a {
+text-decoration: none;
+}
+
+.btn-0 {
+position: relative;
+top: 146px;
+left: 0px;
+color: #FFFF00;
+font-size: 18px;
+font-family: "Roboto",sans-serif;
+text-decoration: none;
+ z-index: 1;
+border-top: 2px solid red;
+border-bottom: 2px solid red;
+border-radius: 20px;
+padding: 8px 19px;
+}
+
+ .btn-0:hover  {
+color: red;
+transition: 1s ease-out;
+border: 2px solid darkorange;
+background: #fff;
+}
+/* ends here */
+
+/* joy decoration */
+.j {
+color: red;
+position: relative;
+top: -310px;
+left: 70px;
+z-index: 5;
+font-size: 110px;
+font-family:  serif;
+font-weight: 100;
+}
+
+.o {
+color:  #008000;
+position: relative;
+top: -300px;
+left: 15px;
+z-index: 7;
+font-size: 100px;
+font-family:  serif;
+font-weight: 100;
+}
+
+.y {
+color:  #FFD700;
+position: relative;
+top: -250px;
+left: -19px;
+z-index: 8;
+font-size: 90px;
+font-family: serif;
+font-weight: 100;
+}
+/* ends here */
+
+/* decoration for  restaurant */
+h1 {
+color:  red;
+margin-top: -295px;
+margin-left: 60px;
+z-index: 5;
+font-size: 40px;
+font-family:  sans-serif;
+font-weight: 600;
+}
+
+.au {
+vertical-align: sub;
+color:   #008000;
+}
+
+.ant {
+color: #FFD700;
+}
+/* ends here */
+
+/* decoration for slogan */
+h2 {
+color:  green;
+margin-top: 60px;
+z-index: 5;
+font-size: 30px;
+font-family:  sans-serif;
+font-weight: 600;
+}
+
+.every {
+margin-left: -118px;
+}
+
+.is {
+color:  #FFD700;
+}
+
+.deli {
+margin-left: 95px;
+color: red;
+}
+/* ends here */
+
+
+/* images for  menu */
+img {
+width: 90%;
+height: 300px;
+border-radius: 4px;
+}
+/* ends here */
+
+/* name of the food on the images */
+p {
+color:  #000;
+font-family: sans-serif;
+font-size: 20px;
+text-align: left;
+margin-left: 30px;
+}
+
+/*ends here */
+
+/* prices on the food images */
+h3 {
+color:  #fff;
+font-family: sans-serif;
+font-size: 18px;
+float: right;
+margin-right: 50px;
+position: relative;
+top: -40px;
+background: #000;
+}
+/* ends here */
+
+/* background color for food images */
+.container {
+background: WHITESMOKE;
+height: 100%;
+}
+/* ends here */
+
+/* background color for special offer menu */
+.wrapper {
+background:  #BCC6CC;
+height: 1900px;
+}
+/* ends here */
+
+/* food names on special offer menu */
+.p  {
+color: #fff;
+text-align: left;
+margin-left: 10px;
+font-size: 20px;
+font-family: sans-serif;
+}
+/* ends here */
+
+/* price for special menu */
+h4 {
+color: #fff;
+text-align: left;
+margin-left: 10px;
+font-size: 18px;
+font-family: sans-serif;
+position: relative;
+top: 0px;
+}
+/* ends here */
+
+
+/* heading for special menu */
+.h4 {
+color: #fff;
+font-size: 29px;
+font-family: sans-serif;
+}
+
+.offer {
+color: #fff;
+font-size: 19px;
+font-family: sans-serif;
+}
+/* ends here */
+
+
+/* heading on footer */
+h5 {
+color: #fff;
+font-size: 22px;
+font-family: sans-serif;
+}
+/* ends here */
+
+
+.division {
+background: url(gallary.jpg);
+height: 300px;
+background-position: center;
+background-size: cover;
+}
+
+.words {
+color:  red;
+font-size: 20px;
+font-family: sans-serif;
+position: relative;
+top: 40px;
+}
+
+
+
+/* footer */
+.footer {
+background: #2B3856;
+height: 555px;
+}
+/* ends here */
+
+
+/* styling location details */
+.opening, .location {
+color: #fff;
+font-size: 18px;
+font-family: sans-serif;
+}
+/* ends here */
+
+/* making opening time & location align straight frome the beginning */
+
+.align {
+margin-left: -45px;
+}
+
+.straight {
+margin-left: -43px;
+}
+
+.reverse {
+margin-left: -25px;
+}
+
+.back {
+margin-left: -99px;
+}
+
+.align-straight {
+margin-left: -14px;
+}
+
+.align {
+margin-left: -90px;
+}
+
+/* end here */
+
+/* social media */
+.fa {  
+padding: 20px;  
+font-size: 20px;  
+width: 20px;  
+text-align: center;  
+text-decoration: none;  
+border-radius: 50%;
+margin: 5px;
+}
+
+.fa-facebook {  
+background: #3B5998;  
+color: white;
+}
+
+.fa-twitter {  
+background: #55ACEE;  
+color: white;
+}
+
+/* reservation form */
+.body {
+background: url(form.jpeg):
+}
+
+/* form input styling */
+.input {
+width: 90%;
+height: 55px;
+}
+
+
+/* background image on the reservation form page */
+.head {
+height: 60vh;
+background: url(form.jpeg);
+background-size: cover;
+background-position: cover;
+}
+
+/* background image on the order form page */
+.image-background {
+height: 40vh;
+background: url(home.jpg);
+background-size: cover;
+background-position: cover;
+}
+
+.place-order {
+position: relative;
+top: 70px;
+color: lightpink;
+font-size: 28px;
+font-family: sans-serif;
+z-index: 1;
+}
+
+/* pink heading on the form page */
+.title {
+position: relative;
+top: 70px;
+color: lightpink;
+font-size: 28px;
+font-family: sans-serif;
+}
+
+/* white paragraph on the form page */
+.description {
+position: relative;
+top: 70px;
+color: #fff;
+font-size: 18px;
+font-family: sans-serif;
+}
+
+/* container holder for the form */
+.row {
+background-color: #f2f2f2;  
+border: 1px solid lightgrey;  
+border-radius: 3px;
+margin-left: 10px;
+margin-right: 10px;
+padding: 6px 21px 16px 21px;
+}
+
+/* input type styling */
+.input-field input { 
+width: 90%;
+Padding: 12px;
+border: 1px solid #999;
+border-radius: 3px;
+margin-left: -2px;
+margin-right: 20px;
+outline: none;
+}
+input[type=month] {  
+width: 90%; 
+height: 45px;  
+border: 1px solid #999;  
+border-radius: 3px;
+background: #fff;
+outline: none;
+}
+
+input[type=time] {  
+width: 90%; 
+height: 45px;  
+border: 1px solid #ccc;  
+border-radius: 3px;
+outline: none;
+background: #fff;
+}
+
+
+ #ddlType {
+width: 100%;
+padding: 12px;
+border: 1px solid #999;
+color: #000;
+font-size: 18px;
+font-family: sans-serif;
+border-radius: 3px;
+outline: none;
+background: #fff;
+}
+
+.comment-box textarea {
+width: 100%;
+height: 120px;
+border: 1px solid #999;
+border-radius: 3px;
+position: relative;
+left: 0px;
+outline: none;
+}
+
+ label {
+color: #000;
+font-size: 18px;
+font-family: sans-serif;
+float: left;
+}
+
+.submit-button {
+float: right;
+}
+
+.container-holder {  
+background-color: #f2f2f2;  
+border: 1px solid lightgrey;  
+border-radius: 3px;
+margin-left: 10px;
+margin-right: 10px;
+padding: 6px 21px 16px 21px;
+}
+
+.form {  
+background-color: #f2f2f2;  
+border: 1px solid lightgrey;  
+border-radius: 3px;
+margin-left: 10px;
+margin-right: 10px;
+padding: 6px 21px 16px 21px;
+}
+
+.submit-button .button {
+width: 140px;
+height: 50px;
+color: #fff;
+font-size: 18px;
+font-family: "Roboto",sans-serif;
+background: steelblue;
+border: 2px solid #999;
+position: relative;
+outline: none;
+}
+
+.about, .payment {
+color: #000;
+font-size: 29px;
+font-family: monospace;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.paragraph {
+color: #000;
+font-size: 20px;
+font-family: sans-serif;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+
+/* menu holding card */
+.product-card {
+height: 300px;
+width: 250px;
+background: #fff;
+margin: auto;
+border-radius: 8px;
+box-shadow: 2px 2px 10px;
+margin-top: 50px;
+cursor: pointer;
+}
+
+/* menu images */
+.product-card img {
+width: 100%;
+height: 150px;
+border-top-right-radius: 8px;
+border-top-left-radius: 8px;
+border-bottom-right-radius: 0;
+border-bottom-left-radius: 0;
+}
+
+/* name of the food or drinks */
+.new {
+text-align: left;
+color: #000;
+font-size: 20px;
+font-family: sans-serif;
+position: relative;
+left: 15px;
+}
+/* price of the food or drink */
+.price {
+text-align: right;
+color: #000;
+font-size: 18px;
+font-family: sans-serif;
+position: relative;
+top: -23px;
+right: 15px;
+}
+/* heading of our menu */
+.our-menu {
+color: #fff;
+font-size: 35px;
+font-family: monospace;
+font-weight: 600;
+background: #000;
+position: relative;
+top: -160px;
+width: 200px;
+border-radius: 12px;
+}
+/* paragraph for our menu */
+.slogan {
+color: #fff;
+font-size: 20px;
+font-family: monospace;
+font-weight: 300px;
+background: steelblue;
+position: relative;
+top: -47px;
+}
+
+/* blue background card */
+.food-card {
+height: 55px;
+width: 150px;
+background: #fff;
+margin: auto;
+border-radius: 8px;
+box-shadow: 2px 2px 10px;
+cursor: pointer;
+background: steelblue;
+position: relative;
+top: -20px;
+}
+/* food & drinks on the blue background card */
+.food {
+color: #fff;
+font-size: 25px;
+font-family: monospace;
+font-weight: 300px;
+position: relative;
+top: 15px;
+}
+
+.gallary {
+color: #000;
+font-size: 30px;
+font-family: monospace;
+}
+
+.describe {
+color: #000;
+font-size: 20px;
+font-family: sans-serif;
+text-align: left;
+margin-left: 30px;
+}
+
+
+.food-gallery {
+color: #000;
+font-size: 20px;
+font-family: sans-serif;
+text-align: left;
+margin-left: 30px;
+}
+
+/* div for error javascript validation */
+#error1, #error2, #error3, #error4, #error5, #error6, #error7, #error8, #error9, #error10, #error11, #error12 {
+color: red;
+font-size: 13px;
+text-align: left;
+} 
